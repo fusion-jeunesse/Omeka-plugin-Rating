@@ -47,7 +47,7 @@ foreach ($display as $format):
             } ?>
     <div class="rateit-rate">
         <span><?php echo $is_current_user ? __('My Rate:') : __('User Rate:'); ?></span>
-        <span <?php echo $attributes; ?>data-rateit-step="0.01" class="rateit rateit-userscore"></span>
+        <span <?php echo $attributes; ?>data-rateit-step="0.5" class="rateit rateit-userscore"></span>
     </div>
         <?php break;
     endswitch;
